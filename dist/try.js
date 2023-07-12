@@ -23,7 +23,7 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
     loadScript("https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js").then(function () {
       return loadScript("https://cdn.jsdelivr.net/npm/jquery.scrollto@2.1.2/jquery.scrollTo.min.js");
     }).then(function () {
-      return loadScript("https://cdn.jsdelivr.net/npm/swagger-ui-dist@3.48.0/swagger-ui-bundle.js");
+      return loadScript("https://cdn.jsdelivr.net/npm/swagger-ui-dist@5/swagger-ui-bundle.js");
     }).then(function () {
       return loadScript("https://cdn.jsdelivr.net/npm/compare-versions@3.6.0/index.min.js");
     }).then(function () {
